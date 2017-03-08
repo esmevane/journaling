@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "target": "es6",
+    "noImplicitAny": true,
+    "allowJs": true,
+    "module": "commonjs",
+    "strictNullChecks": true
+  },
+  "exclude": [
+    "./src/**/*.spec.ts"
+  ],
+  "include": [
+    "./src/**/*"
+  ],
+  "compileOnSave": false,
+  "buildOnSave": false,
+  "atom": {
+    "rewriteTsConfig": false,
+    "formatOnSave": false
+  }
+}
