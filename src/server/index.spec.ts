@@ -1,6 +1,6 @@
-import { expect } from "chai";
-import Server from "./index";
+import { expect } from "chai"
+import Server from "./index"
 
-describe(typeof Server, () => {
-  it("is exported", () => expect(Server).to.be.ok);
-});
+describe(Server.name, () => {
+  it("is exported", () => expect(Server).to.be.ok)
+})

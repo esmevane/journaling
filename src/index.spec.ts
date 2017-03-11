@@ -1,6 +1,7 @@
-import { expect } from "chai";
-import { Server } from "./index";
+import { expect } from "chai"
+import { Core, Server } from "./index"
 
-describe(typeof Server, () => {
-  it("is exported", () => expect(Server).to.be.ok);
-});
+describe("Project-wide exports", () => {
+  it(`exports ${Core.name}`, () => expect(Core).to.be.ok)
+  it(`exports ${Server.name}`, () => expect(Server).to.be.ok)
+})

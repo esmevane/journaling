@@ -5,7 +5,8 @@
     "noImplicitAny": true,
     "allowJs": true,
     "module": "commonjs",
-    "strictNullChecks": true
+    "strictNullChecks": true,
+    "baseUrl": "./src"
   },
   "exclude": [
     "./src/**/*.spec.ts"
