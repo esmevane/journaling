@@ -2,8 +2,6 @@
 
 const path = require("path")
 const yargs = require("yargs")
-const winston = require("winston")
-const chalk = require("chalk")
 
 const source = path.resolve(__dirname, "../dist")
 const { Logger, Config, Server, Service, Cli } = require(source)
